@@ -1,0 +1,26 @@
+[  
+  {  
+     "slug":"starwars-react",
+     "name":"React Star Wars API Demo",
+     "description":"A React demo app that uses the Star Wars API (SWAPI).",
+     "skills":"React, HTML, CSS, JavaScript",
+     "githubLink":"https://github.com/RobF1011/starwars-react",
+     "previewLink":"https://robf.dev/starwars-react/"
+  },
+  {  
+     "slug":"ab-navbar",
+     "name":"Shopify Navbar - Alexandre Birman",
+     "description":"A responsive navigation bar for alexandrebirman.com, built for Shopify",
+     "skills":"Shopify, Liquid, HTML, CSS, JavaScript",
+     "githubLink":"https://github.com/RobF1011/ab-navbar",
+     "previewLink":"https://alexandrebirman.com"
+  },
+  {  
+    "slug":"dungeon-crawler",
+    "name":"Dungeon Crawler RPG Demo",
+    "description":"A dungeon crawler game concept demo made with HTML/CSS/JavaScript.",
+    "skills":"HTML, CSS, JavaScript",
+    "githubLink":"https://github.com/RobF1011/dungeon-crawler",
+    "previewLink":"https://robf1011.github.io/dungeon-crawler/"
+ }
+]
