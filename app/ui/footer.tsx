@@ -1,7 +1,6 @@
 'use client'
 
 import Link from 'next/link';
-import { abraham } from '@/app/ui/fonts';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
 import { FaHouseChimney, FaToolbox, FaEnvelope } from "react-icons/fa6";
