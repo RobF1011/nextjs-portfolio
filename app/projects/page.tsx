@@ -36,12 +36,16 @@ export default async function Page() {
               priority
             />
             <div className='flex gap-3'>
-              <Link className='text-green-600 text-4xl' href={proj.githubLink} target='_blank'>
-                <FaGithub/>
-              </Link>
-              <Link className='text-green-600 text-4xl' href={proj.previewLink} target='_blank'>
-                <FaRegEye/>
-              </Link>
+              {proj.githubLink && 
+                <Link className='text-green-600 text-4xl' href={proj.githubLink} target='_blank'>
+                  <FaGithub/>
+                </Link>
+              }
+              {proj.previewLink && 
+                <Link className='text-green-600 text-4xl' href={proj.previewLink} target='_blank'>
+                  <FaRegEye/>
+                </Link>
+              }
             </div>
           </div>
         )

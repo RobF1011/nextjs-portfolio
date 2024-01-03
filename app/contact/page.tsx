@@ -15,7 +15,7 @@ export default async function Page() {
     <p>You can get in touch with me by email at:</p>
     <Link className='underline' href="mailto:robert.franceschini@gmail.com">robert.franceschini@gmail.com</Link>
     <p>Or download my resume below!</p>
-    <Link href="https://robf.dev/resume/RobertFranceschini_Resume.pdf" target="_blank">
+    <Link href="https://files.robf.dev/RobertFranceschini_Resume.pdf" target="_blank">
     <Image
       className="shadow"
       src="/RF_resume.jpg"

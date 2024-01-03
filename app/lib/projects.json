@@ -5,7 +5,7 @@
      "description":"A React demo app that uses the Star Wars API (SWAPI).",
      "skills":"React, HTML, CSS, JavaScript",
      "githubLink":"https://github.com/RobF1011/starwars-react",
-     "previewLink":"https://robf.dev/starwars-react/"
+     "previewLink":"https://starwars.robf.dev"
   },
   {  
      "slug":"ab-navbar",
@@ -22,5 +22,13 @@
     "skills":"HTML, CSS, JavaScript",
     "githubLink":"https://github.com/RobF1011/dungeon-crawler",
     "previewLink":"https://robf1011.github.io/dungeon-crawler/"
+   },
+   {  
+    "slug":"nextjs-portfolio",
+    "name":"Next.js Portfolio",
+    "description":"This site! A dev portfolio site, written in Next.js",
+    "skills":"Next.js, React, Tailwind, HTML, CSS",
+    "githubLink":"https://github.com/RobF1011/nextjs-portfolio",
+    "previewLink":""
  }
 ]
