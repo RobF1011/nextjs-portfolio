@@ -21,7 +21,7 @@ const links = [
 export default function Footer() {
   const pathname = usePathname();
   return (
-    <nav className='flex items-center justify-evenly p-5 fixed bottom-0 w-full bg-white shadow-md'>
+    <nav className='flex items-center justify-evenly p-5 fixed bottom-0 w-full bg-white shadow-footer'>
       {links.map((link) => {
         const LinkIcon = link.icon;
         return (
@@ -31,7 +31,7 @@ export default function Footer() {
             className={clsx(
               'flex items-center justify-center gap-2 text-green-600 text-3xl transition-all after:transition-all after:content-[""] after:w-14 after:h-14 after:absolute after:rounded-full',
               {
-                'scale-125 -translate-y-4 text-white after:bg-green-600': pathname === link.href,
+                'scale-125 -translate-y-4 text-white after:bg-green-600 after:shadow-icon': pathname === link.href,
               },
             )}
           >

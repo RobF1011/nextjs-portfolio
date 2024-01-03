@@ -4,8 +4,8 @@ import { FaCodepen, FaGithub, FaLinkedin } from "react-icons/fa6";
 
 export default function Header() {
   return (
-    <header className='flex flex-col items-center justify-center p-5 bg-white shadow-md'>
-      <h1 className={`${orbitron.className} font-bold text-green-600`}>Rob Franceschini</h1>
+    <header className='flex flex-col items-center justify-center p-5 bg-white shadow-header'>
+      <h1 className={`${orbitron.className} font-bold text-green-600 text-center`}>Rob Franceschini</h1>
       <div className='flex gap-4 text-indigo-600 text-4xl'>
         <Link target='_blank' href='https://www.linkedin.com/in/robfranceschini/'>
           <FaLinkedin/>

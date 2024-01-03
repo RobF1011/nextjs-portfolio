@@ -29,7 +29,7 @@ export default function Home() {
   ]
 
   return (
-    <main className="flex flex-col items-center gap-6 py-16 max-w-screen-lg m-auto">
+    <main className="flex flex-col items-center gap-6 px-8 pt-8 pb-28 max-w-screen-lg m-auto">
       <Image
           className="rounded-full border-4 shadow-md"
           src="/rob_japan.jpg"

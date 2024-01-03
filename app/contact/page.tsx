@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default async function Page() {
   return (
-  <main className='flex flex-col items-center justify-center p-8 md:p-16 gap-6'>
+  <main className='flex flex-col items-center justify-center px-8 md:px-16 pt-8 pb-28 gap-6'>
     <h2 className={`${orbitron.className} font-bold`}>Contact</h2>
     <p>You can get in touch with me by email at:</p>
     <Link className='underline' href="mailto:robert.franceschini@gmail.com">robert.franceschini@gmail.com</Link>
