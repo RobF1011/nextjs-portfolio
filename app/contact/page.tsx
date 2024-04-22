@@ -17,8 +17,8 @@ export default async function Page() {
     <p>Or download my resume below!</p>
     <Link href="https://files.robf.dev/RobertFranceschini_Resume.pdf" target="_blank">
     <Image
-      className="shadow"
-      src="/RF_resume.jpg"
+      className="shadow-header"
+      src="/RF_resume-2.jpg"
       alt="Rob Franceschini Resume"
       width={320}
       height={461}
