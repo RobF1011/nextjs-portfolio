@@ -5,7 +5,7 @@
      "description":"A React demo app that uses the Star Wars API (SWAPI).",
      "skills":"React, HTML, CSS, JavaScript",
      "githubLink":"https://github.com/RobF1011/starwars-react",
-     "previewLink":"https://starwars.robf.dev"
+     "previewLink":"https://starwars-react-six.vercel.app"
   },
   {  
      "slug":"ab-navbar",
