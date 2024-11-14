@@ -1,4 +1,12 @@
 [  
+   {  
+     "slug":"disney-plus",
+     "name":"Streaming TV App Home",
+     "description":"A demo for the home screen of a streaming tv app, like Disney+. Made in pure Javascript with no dependencies.",
+     "skills":"HTML, CSS, JavaScript",
+     "githubLink":"https://github.com/RobF1011/disney-plus-tv",
+     "previewLink":"https://robf1011.github.io/disney-plus-tv/"
+  },
   {  
      "slug":"starwars-react",
      "name":"React Star Wars API Demo",
