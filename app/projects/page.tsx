@@ -18,14 +18,14 @@ export default async function Page() {
   <main className='flex flex-col items-center justify-center px-8 md:px-16 pt-8 pb-28 gap-6'>
     <div className='text-center'>
       <h2 className={`${orbitron.className} font-bold`}>Projects</h2>
-      <h5 className={`${orbitron.className} font-bold`}>(More on the way!)</h5>
+      <p className='text-white text-md max-w-4xl'>Here are some personal projects that I&apos;ve done for fun and to learn new skills! The majority of my work has been done with large companies that I&apos;m not able to showcase here, but I&apos;d be more than happy to discuss in more detail!</p>
     </div> 
     <div className='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
       {projects.map((proj: Project) => {
         return (
           <div className='flex flex-col justify-between bg-white rounded-md p-5 max-w-sm shadow-md' key={proj.slug}>
             <h3 className={`${orbitron.className} font-bold text-black`}>{proj.name}</h3>
-            <p className='text-black text-sm'>Skills used: {proj.skills}</p>
+            <p className='text-black text-sm'><span className='font-bold'>Skills used:</span> {proj.skills}</p>
             <p className='text-black my-3'>{proj.description}</p>
             <Image
               className="mb-3"

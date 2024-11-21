@@ -1,5 +1,13 @@
 [  
    {  
+     "slug":"task-dashboard-nuxt",
+     "name":"Team Task Dashboard",
+     "description":"A team dashboard demo, written in Nuxt 3 / Vue 3, using Pinia for state management and Tailwind for styling.",
+     "skills":"Nuxt, Vue.js, Tailwind, HTML, CSS, JavaScript",
+     "githubLink":"https://github.com/RobF1011/task-dashboard-nuxt",
+     "previewLink":"https://task-dashboard-nuxt.vercel.app"
+   },
+   {  
      "slug":"disney-plus",
      "name":"Streaming TV App Home",
      "description":"A demo for the home screen of a streaming tv app, like Disney+. Made in pure Javascript with no dependencies.",
